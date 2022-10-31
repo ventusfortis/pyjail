@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pyjail:
+    image: pyjail
+    build:
+      context: ./pyjail
+      dockerfile: Dockerfile
+    ports:
+      - '13370:13370'
