@@ -1,6 +1,6 @@
 # pyjail
 
-Simple python jail CTF task.
+Simple python jailbreak CTF task.
 To start:
 ```
 docker-compose up --build -d
