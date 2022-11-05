@@ -1,6 +1,7 @@
 version: '3'
 services:
   pyjail:
+    restart: always
     image: pyjail
     build:
       context: ./pyjail
